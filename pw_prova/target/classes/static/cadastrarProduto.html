@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>CadastroProduto</title>
+</head>
+<body>
+
+<h2>Realizar cadastro do Produto</h2>
+
+<form action="/cadastrarProduto" method="post">
+    <label for="fname">Produto:</label><br>
+    <input type="text" id="fname" name="nome" required><br>
+    <label for="lname">Descrição:</label><br>
+    <input type="text" id="lname" name="descricao" required><br>
+    <label for="quantity">Preço:</label><br>
+    <input type="money" id="quantity" name="preco" min="1"><br>
+    <label for="quantity">Estoque:</label><br>
+    <input type="number" id="quantity" name="estoque" ><br>
+    <br>
+    <input type="submit" value="Salvar">
+
+
+</form>
+
+</body>
+</html>
